@@ -14,7 +14,6 @@ public class IosGuiFactory implements GuiAbstractFactory {
 
     @Override
     public Button createButton() {
-
         return new IosButton();
     }
 }

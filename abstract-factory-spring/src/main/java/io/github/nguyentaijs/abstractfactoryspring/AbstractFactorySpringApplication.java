@@ -23,5 +23,4 @@ public class AbstractFactorySpringApplication {
         application.render();
         application.interact();
     }
-
 }

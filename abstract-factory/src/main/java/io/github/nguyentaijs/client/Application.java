@@ -14,7 +14,7 @@ public class Application {
     }
 
     public void render() {
-        button.render();
+        dialog.render();
         button.render();
         System.out.println("Finish rendering");
         System.out.println("===");

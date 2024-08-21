@@ -8,9 +8,7 @@ import io.github.nguyentaijs.factory.impl.WindowsGuiFactory;
  * Hello world!
  *
  */
-public class App 
-{
-
+public class App {
     public static final String OS_WIN = "win";
     public static final String OS_MAC = "mac";
 
