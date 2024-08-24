@@ -1,11 +1,10 @@
-package io.github.nguyentaijs;
+package io.github.nguyentaijs.prototype;
 
 import java.util.Objects;
 
 public abstract class Shape {
     int x;
     int y;
-    String color;
 
     public Shape() {
     }
@@ -14,10 +13,24 @@ public abstract class Shape {
         if (Objects.nonNull(target)) {
             this.x = target.x;
             this.y = target.y;
-            this.color = target.color;
         }
     }
 
     public abstract Shape clone();
 
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
 }
