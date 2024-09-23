@@ -4,7 +4,7 @@ public class Car {
     private String manufacturer;
     private String model;
     private String color;
-    protected int year;
+    private int year;
 
     public Car(String manufacturer, String model, String color, int year) {
         this.manufacturer = manufacturer;
