@@ -1,4 +1,4 @@
-package car;
+package builder;
 
 public interface Builder {
     void setManufacturer(String make);

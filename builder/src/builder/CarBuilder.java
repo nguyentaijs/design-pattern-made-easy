@@ -1,4 +1,6 @@
-package car;
+package builder;
+
+import car.Car;
 
 public class CarBuilder implements Builder {
     private String manufacturer;

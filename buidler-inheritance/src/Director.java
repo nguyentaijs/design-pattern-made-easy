@@ -25,7 +25,7 @@ public class Director {
     public ElectricCar buildlVF3() {
         System.out.println("Building VF3...");
         return new ElectricCar.ElectricCarBuilder()
-                .setManufacturer("Tesla")
+                .setManufacturer("Vinfast")
                 .setColor("Red")
                 .setModel("VF3")
                 .setYear(2025)

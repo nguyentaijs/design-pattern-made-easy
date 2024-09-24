@@ -1,4 +1,4 @@
-import car.Builder;
+import builder.Builder;
 
 public class Director {
     public void buildXForce(Builder builder) {
